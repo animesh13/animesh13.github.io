@@ -28,3 +28,7 @@ if RUBY_PLATFORM =~ /linux-musl/
 end
 
 gem 'jekyll-compose', group: [:jekyll_plugins]
+
+group :jekyll_plugins do
+  gem 'jekyll-postfiles'
+end
