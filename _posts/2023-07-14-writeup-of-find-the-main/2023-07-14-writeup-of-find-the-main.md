@@ -1,14 +1,17 @@
 ---
-layout: default
 title: "CTF BD find_the_main Writeup"
-author: cotes
-date: 2019-08-08 14:10:00 +0800
+author: animesh
+# date: 2019-08-08 14:10:00 +0800
 toc: true
-# date: 2021-05-03T20:32:35+06:00
+date: 2021-05-03T20:32:35+06:00
 tags: ["ctf", "reversing"]
 categories: ["CTF", "Reversing"]
 render_with_liquid: false
 comments: true
+image:
+  path: /posts/writeup-of-find-the-main/ctfbd.jpg
+  #   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: CTF Community Bangladesh
 ---
 
 ## Challenge Description
@@ -427,7 +430,7 @@ And we got the encrypted flag "Ka738OV0096VVP7nCJZkZt7QEdmPIudSr4GdQDxVnlLv7Exqg
 Now looking at the flag it is looking like some kind of base.
 Let's decode it using cyberchef
 
-![Flag](image-1.png)
+![Flag](image.png)
 
 Hoorah! We got the flag - **CTF_BD{R3ver5ing_1s_5up3r_fun_4laway5}**
 
