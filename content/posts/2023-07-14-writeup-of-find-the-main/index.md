@@ -1,7 +1,6 @@
 ---
 title: "CTF BD find_the_main Writeup"
 description: "This is a writeup for CTF BD find_the_main challenege writeup"
-layout: "simple"
 authors:
   - "animesh"
 showAuthor: true
